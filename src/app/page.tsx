@@ -61,7 +61,7 @@ export default function Home() {
 
       setStatus({ loading: false, success: true, error: false });
       form.reset();
-    } catch (error) {
+    } catch {
       setStatus({ loading: false, success: false, error: true });
     }
   };
@@ -77,7 +77,7 @@ export default function Home() {
         <div className="container mx-auto px-4 z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-              Hi, I'm <span className="name-text text-white">Pratham Patel</span>
+              Hi, I&#39;m <span className="name-text text-white">Pratham Patel</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8">
               Full Stack Developer | Data Analytics | AI/ML | Cyber Security | UI/UX Enthusiast
@@ -170,7 +170,7 @@ export default function Home() {
               
               {status.success && (
                 <p className="text-green-500 text-center">
-                  Message sent successfully! I'll get back to you soon.
+                  Message sent successfully! I&#39;ll get back to you soon.
                 </p>
               )}
               {status.error && (

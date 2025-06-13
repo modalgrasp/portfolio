@@ -66,7 +66,7 @@ export default function ExperienceSection() {
         >
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Certifications</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Professional certifications and courses I've completed to enhance my skills and knowledge.
+            Professional certifications and courses I&#39;ve completed to enhance my skills and knowledge.
           </p>
         </motion.div>
 
