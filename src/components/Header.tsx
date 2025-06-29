@@ -93,7 +93,7 @@ export default function Header() {
           {/* Social Media Links - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/modalgrasp
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -104,7 +104,7 @@ export default function Header() {
               </svg>
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/prathampatel04/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
